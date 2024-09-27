@@ -3,7 +3,7 @@ import {
   useNavigationListener,
 } from '@shopify/react-performance';
 import EventEmitter from 'events';
-import prom from 'promjs';
+import prom from 'promjs/index';
 import {
   PropsWithChildren,
   useCallback,
